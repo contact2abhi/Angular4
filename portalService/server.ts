@@ -21,7 +21,7 @@ export class server{
   }
 
   registerRoutes() : void {
-    this.router.get('/login', (req, res) => Provider.Login.onAuthenticate(req, res));
+    this.router.get('/login', (req, res) => Provider.Login.onAuthenticate2(req, res));
     this.app.use('/',this.router);
   }
 }

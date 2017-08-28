@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.4",
+    "mongojs": "^2.4.1",
     "promise": "^8.0.1",
-    "ts-node": "^3.3.0"
+    "ts-node": "^3.3.0",
+    "url": "^0.11.0"
   }
 }
